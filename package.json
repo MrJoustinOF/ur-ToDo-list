@@ -2,13 +2,13 @@
   "name": "ur-to-do-list",
   "version": "0.0.0",
   "scripts": {
+    "heroku-postbuild": "ng build --prod",
     "ng": "ng",
     "start": "node server.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "heroku-postbuild": "ng build --prod"
+    "e2e": "ng e2e"
   },
   "engines": {
     "node": "15.5.1",
@@ -30,6 +30,7 @@
     "path": "^0.12.7",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
+    "typescript": "~4.1.5",
     "zone.js": "~0.11.3",
     "typescript": "~4.1.5"
   },
